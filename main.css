@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'Roboto Medium';
+    src: url('Roboto-Medium.ttf');
+}
+
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#board {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    width: calc((80px + 2px) * 4 + 8px * 3);
+}
+
+.card {
+    width: 60px;
+    padding: 10px;
+    aspect-ratio: 1 / 1;
+    cursor: pointer;
+    border: black solid 1px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-auto {
+    flex: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto Medium", serif;
+    font-size: 48px;
+    color: #9031AA;
+}
+
+.text-height-spacer {
+    height: 56px;
+}
